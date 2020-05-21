@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F4F4F4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#551033"
+        android:orientation="vertical">
+        
+            <TextView
+                android:id="@+id/titlepage"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="Add New Note"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="26sp"
+                android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="22dp"
+        android:paddingTop="22dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/addtitle"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Add Title"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/titledoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/binput"
+            android:hint="What's New?"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="#B5B5B5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="22dp"
+        android:paddingTop="22dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/addesc"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Description"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/adddetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/binput"
+            android:hint="Enter Details?"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="#B5B5B5" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="22dp"
+        android:paddingTop="22dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/date"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Date"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/binput"
+            android:hint="Select Date"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="#B5B5B5" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Now"
+        android:layout_marginTop="30dp"
+        android:textColor="#dddd"
+        android:background="#8B0A50"/>
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#dddd"
+        android:text="Cancel"
+        android:textColor="#afafaf" />
+
+
+</LinearLayout>

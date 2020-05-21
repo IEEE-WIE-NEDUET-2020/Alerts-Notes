@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "360826576691",
+    "firebase_url": "https://reminder-app-faefa.firebaseio.com",
+    "project_id": "reminder-app-faefa",
+    "storage_bucket": "reminder-app-faefa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360826576691:android:0e0161e26b1c1266b26846",
+        "android_client_info": {
+          "package_name": "com.example.reminderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360826576691-t6fhq9meeq2tqeknpe11tttknc1tfpi0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reminderapp",
+            "certificate_hash": "1e4047b99a541a89a3674e8dc8f789dd8f2f7812"
+          }
+        },
+        {
+          "client_id": "360826576691-52923ldo151av6hgvf4vi06rqjju0ori.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFHYreesxA_Mrk6sGmqciNiR_eA3UGpWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360826576691-52923ldo151av6hgvf4vi06rqjju0ori.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
